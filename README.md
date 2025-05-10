@@ -26,7 +26,7 @@ This was developed as a skills project to demonstrate Python programming, data c
 AquilX_CSVProject
   -> Data                                               # Raw datasets files (CSV files go here)
       *diabetes_012_health_indicators_BRFSS2015.csv     
-  -> utils.py                                           # Resuable fucntions for cleaning+plotting
+  -> utils.py                                           # Resuable functions for cleaning+plotting
   -> DiabetesPlotting.py                                # Main script 
   -> requirements.txt                                   # python package dependencies
   -> README.md                                          # Project overview + instructions (this file)
