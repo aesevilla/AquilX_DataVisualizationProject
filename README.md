@@ -24,17 +24,15 @@ This was developed as a skills project to demonstrate Python programming, data c
 
 ## 💻 Folder Structure
 AquilX_CSVProject/
-├── data/                    # 📂 Raw dataset files (CSV files go here)
-│   └── diabetes_data.csv
-│
-├── output/                  # 📂 Saved plots and images
-│   ├── example_boxplot.png
-│   └── example_scatter.png
-│
-├── utils.py                 # 📝 Reusable functions for cleaning + plotting
-├── DiabetesPlotting.py      # 📝 Main script (can also be called main.py)
-├── requirements.txt         # 📝 Python package dependencies
-├── README.md                # 📝 Project overview + instructions (this file)
+- data/                    # 📂 Raw dataset files (CSV files go here)
+    - diabetes_data.csv
+- output/                  # 📂 Saved plots and images
+    - example_boxplot.png
+    - example_scatter.png
+- utils.py                 # 📝 Reusable functions for cleaning + plotting
+- DiabetesPlotting.py      # 📝 Main script (can also be called main.py)
+- requirements.txt         # 📝 Python package dependencies
+- README.md                # 📝 Project overview + instructions (this file)
 
 
 
