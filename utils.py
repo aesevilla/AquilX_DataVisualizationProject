@@ -12,10 +12,10 @@ import pandas as pd
 def load_csv(filepath):
     try:
         df = pd.read_csv(filepath)
-        print("✅ CSV file loaded successfully")
+        print("CSV file loaded successfully")
         return df
     except Exception as e:
-        print(f"❌ Error loading CSV: {e}")
+        print(f"Error loading CSV: {e}")
         return None
 
 #cleaning data: removes whitespace in column names and removes rows with missing values
@@ -28,7 +28,7 @@ def clean_data(df, required_columns):
     df_clean=df.dropna(subset=required_columns)
     #keep only those required_columns
     df_clean=df_clean[required_columns]
-    print("✅ Dataframe cleaned successfully")
+    print("Dataframe cleaned successfully")
     return df_clean
 
 #plotting lines
