@@ -26,11 +26,13 @@ This was developed as a skills project to demonstrate Python programming, data c
 AquilX_CSVProject/
 - data/                    # 📂 Raw dataset files (CSV files go here)
     - diabetes_data.csv
-- output/                  # 📂 Saved plots and images
+- output/                  # 📂 Examples of saved data and images
     - example_boxplot.png
     - example_scatter.png
+    - group_comparison.csv
 - utils.py                 # 📝 Reusable functions for cleaning + plotting
-- DiabetesPlotting.py      # 📝 Main script (can also be called main.py)
+- DiabetesPlotting.py      # 📝 Plotting script 
+- AnalyzingFactors.py      # 📝 Statistical Analysis script
 - requirements.txt         # 📝 Python package dependencies
 - README.md                # 📝 Project overview + instructions (this file)
 
