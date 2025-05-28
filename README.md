@@ -5,7 +5,7 @@ This was developed as a skills project to demonstrate Python programming, data c
 
 ---
 
-## 🚀 Features
+## Features
 
 - Load & clean CSV datasets using pandas
 - Modular code with reusable functions (`utils.py`)
@@ -15,26 +15,26 @@ This was developed as a skills project to demonstrate Python programming, data c
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3.13
 - pandas
 - matplotlib
 
 
-## 💻 Folder Structure
+## Folder Structure
 AquilX_CSVProject/
-- data/                    # 📂 Raw dataset files (CSV files go here)
+- data/                    # Raw dataset files (CSV files go here)
     - diabetes_data.csv
-- output/                  # 📂 Examples of saved data and images
+- output/                  # Examples of saved data and images
     - example_boxplot.png
     - example_scatter.png
     - group_comparison.csv
-- utils.py                 # 📝 Reusable functions for cleaning + plotting
-- DiabetesPlotting.py      # 📝 Plotting script 
-- AnalyzingFactors.py      # 📝 Statistical Analysis script
-- requirements.txt         # 📝 Python package dependencies
-- README.md                # 📝 Project overview + instructions (this file)
+- utils.py                 # Reusable functions for cleaning + plotting
+- DiabetesPlotting.py      # Plotting script 
+- AnalyzingFactors.py      # Statistical Analysis script
+- requirements.txt         # Python package dependencies
+- README.md                # Project overview + instructions (this file)
 
 
 
